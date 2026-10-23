@@ -22,7 +22,7 @@ class loadbalancer
       int getSize();
    private:
       int systemTime;
-      queue<request> requestQueue;
+      //queue<request> requestQueue;
       //priority_queue<request, vector<request>, MaxProcessTime> requestQueue;
       //priority_queue<request, vector<request>, MinProcessTime> requestQueue;
       //priority_queue<request, vector<request>, MaxPID> requestQueue;
